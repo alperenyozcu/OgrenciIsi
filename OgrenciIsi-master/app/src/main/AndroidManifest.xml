@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DuzceBestTeam.ogrenciIsi">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".recyclerview_nothification_ogrenci" />
+        <activity android:name=".showProfil" />
+        <activity android:name=".RecyclerView_Notification_item" />
+        <activity android:name=".Ogrenci_New_Job" />
+        <activity android:name=".recyclerview_other_item" />
+        <activity android:name=".ProfileEdit_Other" />
+        <activity android:name=".ProfileEdit" />
+        <activity android:name=".Recycle_Item" />
+        <activity android:name=".Other_New_Job" />
+        <activity android:name=".createAccountPage" />
+        <activity android:name=".LoginPage">
+
+        </activity>
+        <activity android:name=".ilk_acilis" />
+        <activity android:name=".AnaSayfa" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

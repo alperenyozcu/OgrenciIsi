@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Öğrenci İşi</string>
+    <string name="yunus">yunus</string>
+    <string name="Aytac">Aytac</string>
+    <string name="Aytac2">Button</string>
+    <string name="text1">Ben bu oyunu bozarım!</string>
+    <string name="debgvgv">debgvgv</string>
+    <string name="furkan">Furkan</string>
+    <string name="yeter_lan_yeter">YETER LAN YETER</string>
+    <string name="isim">İsim</string>
+    <string name="soyisim">Soyisim</string>
+    <string name="e_mail">E-mail (@edu)</string>
+    <string name="sifre">Şifre</string>
+    <string name="kaydol">Kaydol</string>
+    <string-array name="jobKind">
+        <item>Tam Zamanlı</item>
+        <item>Yarı Zamanlı</item>
+        <item>Freelance</item>
+
+    </string-array>
+    <string-array name="egitimduzeyi">
+        <item>Lisans</item>
+        <item>Ön lisans</item>
+        <item>Mezun</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
